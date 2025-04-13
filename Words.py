@@ -2,7 +2,7 @@ import random
 import os
 
 
-def words_loader(file=r'D:\Estudos\Projetos\Words_Repository.txt'):
+def words_loader(file=r'Endereço do Words_Repository'):
     try:
         with open(file, 'r', encoding='utf-8') as f:
             word_list = [line.strip() for line in f if line.strip()]
