@@ -27,8 +27,6 @@ def game_loop(word_list, points):
     attempted_letters = set()
     attempts = len(secret_word) + 5
 
-    print(secret_word)
-
     print(f'|🔸 Letras: {len(secret_word)}\n'
           f'|🔸 Tentativas: {len(secret_word) + 5}\n'
           f'|🔸 Pontos: {points}\n\n',
