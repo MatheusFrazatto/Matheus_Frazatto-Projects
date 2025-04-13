@@ -92,7 +92,7 @@ def game_loop(word_list, points):
         os.system('cls' if os.name == 'nt' else 'clear')
         print(f'🔵 Você PerdeU... A Palavra Era: {secret_word.upper()}')
         print(f'🔸 Pontuação final: {points} pontos.')
-        return False, points
+        return True, points
 
 
 def main():
