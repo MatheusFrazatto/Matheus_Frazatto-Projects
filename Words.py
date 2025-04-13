@@ -64,7 +64,7 @@ def game_loop(word_list, points):
 
             print('🔵 Palavra Errada!')
 
-        print(f'\n🔸Letras Jogadas: {', '.join(sorted(attempted_letters)).upper()}🔹\n'
+        print(f'\n🔸Letras Jogadas: {', '.join(sorted(attempted_letters)).upper()}\n'
               f'🔸Tentativas Restantes: {attempts}\n')
 
         formed_word_visible = ' ◽️  '
