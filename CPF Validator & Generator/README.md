@@ -1,4 +1,4 @@
-#📝 CPF Validator & Generator
+📝 CPF Validator & Generator
 
 Um projeto simples em Python para validar e gerar números de CPF (Cadastro de Pessoas Físicas) brasileiros. Ideal para testes, estudos ou como ferramenta auxiliar em sistemas que lidam com dados fictícios.
 Funcionalidades
